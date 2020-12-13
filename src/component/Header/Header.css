@@ -1,0 +1,9 @@
+.header_container{
+    width: 996px;
+    height: 50px;
+    background: white;
+    border-left: 2px solid #6b6b6b;
+    border-right: 2px solid #6b6b6b;
+    border-top: 2px solid #6b6b6b;
+    border-bottom: 2px solid #6b6b6b;
+}

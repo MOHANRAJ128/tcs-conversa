@@ -1,0 +1,22 @@
+.content{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    left: 400px;
+    top: 480px;
+}
+.query_logo_container{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 430px;
+    left: 930px;
+    border-radius: 30px;
+    background: rgb(3, 33, 73);
+}
+.query_logo{
+    position: absolute;
+    font-size: 50px;
+    left: 20px;
+    color: white;
+}

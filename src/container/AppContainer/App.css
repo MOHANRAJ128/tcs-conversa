@@ -1,0 +1,8 @@
+.container{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    top: 30px;
+    left: 130px;
+    background: rgb(23, 68, 128) 0% 0% no-repeat padding-box;
+}

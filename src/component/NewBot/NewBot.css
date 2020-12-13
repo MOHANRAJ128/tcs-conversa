@@ -1,0 +1,28 @@
+.bot_description{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+h2{
+    color: white;
+    font: normal normal normal 30px/32px Open Sans;
+}
+p{
+    position: absolute;
+    left: 30px;
+    color: rgb(0, 99, 230);
+}
+
+button{
+    position: absolute;
+    left: 100px;
+    width: 145px;
+    color: #ffffff;
+    font-family:  Open Sans;
+    font-size: 30px;
+    background: rgb(112, 145, 34);
+    border-radius: 3px;
+    opacity: 0.8;
+    font-size: 18px;
+    padding: 5px;
+}
