@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Dashboard } from '../../component/Dashboard/Dashboard';
 
 import { Footer } from '../../component/Footer/Footer';
-import Header from '../../component/Header/Header';
 import Login from '../../component/Login/Login';
-import { BotDesc } from '../../component/NewBot/BotDesc/BotDesc';
+import BotDesc from '../../component/NewBot/BotDesc/BotDesc';
 import { NewBot } from '../../component/NewBot/NewBot';
 import { LoggedInUser } from '../UserContainer/LoggedInUser';
 
@@ -26,6 +26,11 @@ export class App extends Component{
                         <Route exact path="/botdescription">
                             <LoggedInUser>
                                 <BotDesc/>
+                            </LoggedInUser>
+                        </Route>
+                        <Route exact path="/dashboard">
+                            <LoggedInUser>
+                                <Dashboard/>
                             </LoggedInUser>
                         </Route>
                     </Switch>

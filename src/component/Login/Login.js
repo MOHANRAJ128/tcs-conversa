@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { withRouter } from "react-router-dom";
+import { connect } from "react-redux";
 
 import "./Login.css"
 
@@ -9,8 +10,10 @@ class Login extends Component{
     {
         super(props);
         this.handleLogin=this.handleLogin.bind(this);
+        console.log(props);
     }
     handleLogin(){
+        this.props.dispatch({type:"LOGGED_IN",userName:"Mohan"});
         this.props.history.push({pathname:"/newbot",state:{username:"Mohan"}});
     }
     render(){
@@ -25,7 +28,7 @@ class Login extends Component{
                         <input type="password" placeholder="Password"></input>
                     </form>
                     <br/>
-                    <span>Forgot Password?</span>
+                    <span className="forgot_style">Forgot Password?</span>
                     <br/><br/>
                     <button className="request_access">Request Access</button>
                     <button className="login" onClick={this.handleLogin}>Login</button>
@@ -35,4 +38,4 @@ class Login extends Component{
     }
 }
 
-export default withRouter(Login);
+export default connect(null)(withRouter(Login));
