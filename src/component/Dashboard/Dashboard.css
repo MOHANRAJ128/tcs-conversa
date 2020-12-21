@@ -43,8 +43,21 @@ h5{
 }
 .container_content{
     position: absolute;
+    display: grid;
     top: 70px;
     left: 20px;
     width: 340px;
     height: 380px;
+}
+.block_title{
+    font-size: 13px;
+    color: #014785;
+    letter-spacing: 0.5px;
+}
+.block_content{
+    text-align: left;
+    font: normal normal 300 13px/26px Open Sans;
+    letter-spacing: 0.4px;
+    color: #242424;
+    opacity: 1;
 }

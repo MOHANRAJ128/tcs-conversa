@@ -26,7 +26,22 @@ export class Dashboard extends Component{
                 <div className="block_container">
                     <input type="text" className="search_bar" placeholder="Search for Blocks"/>
                     <div className="container_content">
-                        <p>BLOCKS OF YOUR BOT</p>
+                        <div>
+                            <p className="block_title">BLOCKS OF YOUR BOT</p>
+                            <br/>
+                            <p className="block_content">
+                                Your Bot will be made up conversational element called 'Blocks'. Blocks are the response that the Bot will send out to the end user
+                            </p>
+                        </div>
+                        <div>
+                            <p className="block_title">GREETING</p>
+                        </div>
+                        <div>
+                            <p className="block_title">BODY</p>
+                        </div>
+                        <div>
+                            <p className="block_title">CLOSING STATEMENT</p>
+                        </div>
                     </div>
                 </div>
             </div>
